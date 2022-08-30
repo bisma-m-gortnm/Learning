@@ -1,0 +1,13 @@
+<main>
+    {{#if hasProducts }}
+    <div class="grid">
+        {{#each prods}}
+        <header class="card_header">
+            <h1> {{this.title}}</h1>
+        </header>
+        {{/each}}
+    </div>
+    {{ else }}
+    <h1> No Added Products Yet!.</h1>
+    {{/if}}
+</main>

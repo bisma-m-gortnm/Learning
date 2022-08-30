@@ -1,0 +1,7 @@
+{
+    "name": "hello",
+    "scripts": {
+        "dev": "node distructing.js",
+        "debug": "node distructing.js"
+    }
+}
